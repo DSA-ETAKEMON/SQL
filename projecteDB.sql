@@ -16,7 +16,7 @@ CREATE TABLE User (
 CREATE TABLE Etakemons (
 	id INTEGER AUTO_INCREMENT NOT NULL,
 	name VARCHAR(40) NOT NULL,
-	tipo VARCHAR(40) NOT NULL,
+	tipo ENUM ('director','alumno','profesor')NOT NULL,
 	puntos INTEGER,
 	PRIMARY KEY (id)
 );
