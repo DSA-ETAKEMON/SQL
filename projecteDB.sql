@@ -1,4 +1,3 @@
--- projecteDB
 DROP DATABASE IF EXISTS projecteDB;
 CREATE DATABASE projecteDB;
 USE projecteDB;
@@ -15,7 +14,7 @@ CREATE TABLE User (
 );
 CREATE TABLE Etakemons (
 	id INTEGER AUTO_INCREMENT NOT NULL,
-	name VARCHAR(40) NOT NULL,
+	name VARCHAR(40) UNIQUE NOT NULL,
 	tipo ENUM ('director','alumno','profesor')NOT NULL,
 	puntos INTEGER,
 	PRIMARY KEY (id)
@@ -30,7 +29,7 @@ CREATE TABLE Fight (
 	FOREIGN KEY (ContrincanteUno) REFERENCES User(id) on delete cascade,
 	FOREIGN KEY (ContrincanteDos) REFERENCES User(id) on delete cascade
 );
-CREATE TABLE relacionUserEtakemos (
+CREATE TABLE relacionUserEtakemons (
 	id INTEGER AUTO_INCREMENT NOT NULL,
 	idUser INTEGER NOT NULL,
 	idEtakemon INTEGER NOT NULL,
