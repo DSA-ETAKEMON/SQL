@@ -31,8 +31,8 @@ CREATE TABLE Fight (
 );
 CREATE TABLE UserEtakemons (
 	id INTEGER AUTO_INCREMENT NOT NULL,
-	iduser INTEGER NOT NULL,
-	idetakemon INTEGER NOT NULL,
+	idUser INTEGER NOT NULL,
+	idEtakemon INTEGER NOT NULL,
 	FOREIGN KEY (idUser) REFERENCES User(id) on delete cascade,
 	FOREIGN KEY (idEtakemon) REFERENCES Etakemons(id) on delete cascade,
 	PRIMARY KEY (id)
