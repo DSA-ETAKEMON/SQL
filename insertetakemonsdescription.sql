@@ -1,0 +1,27 @@
+USE projecteDB;
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('1','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('2','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('3','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('4','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('5','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('6','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('7','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('8','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('9','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('10','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('11','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('12','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('13','alumno de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('14','profesor de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('15','profesor de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('16','profesor de DSA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('17','profesora de IOT');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('18','profesor de IOT');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('19','profesora de EA');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('20','profesor de TIQ');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('21','profesor de TIQ');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('22','profesora de IX');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('23','profesora de ADX');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('24','profesor de PX');
+insert into EtakemonsDescription (idetakemon,descripcion) VALUES ('25','director de la EETAC');
+
