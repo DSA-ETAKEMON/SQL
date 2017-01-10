@@ -17,7 +17,6 @@ CREATE TABLE Etakemons (
 	name VARCHAR(40) UNIQUE NOT NULL,
 	tipo ENUM ('director','alumno','profesor')NOT NULL,
 	puntos INTEGER,
-	descripcion VARCHAR(100),
 	PRIMARY KEY (id)
 );
 CREATE TABLE Fight (
