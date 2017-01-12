@@ -45,7 +45,7 @@ CREATE TABLE UserEtakemons (
 CREATE TABLE EtakemonsDescription (
 	id INTEGER AUTO_INCREMENT NOT NULL,
 	idetakemon INTEGER NOT NULL,
-	descripcion VARCHAR(1000),
+	poder VARCHAR(1000),
 	FOREIGN KEY (idetakemon) REFERENCES Etakemons(id) on delete cascade,
 	PRIMARY KEY (id)
 );
