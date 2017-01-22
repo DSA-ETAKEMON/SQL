@@ -53,7 +53,7 @@ CREATE TABLE EtakemonsPosition (
 	id INTEGER AUTO_INCREMENT NOT NULL,
 	idetakemon INTEGER NOT NULL,
 	lat DOUBLE,
-	long DOUBLE,
+	lng DOUBLE,
 	tipoetakemon VARCHAR(40),
 	FOREIGN KEY (tipoetakemon) REFERENCES Etakemons(tipo) on delete cascade,
 	FOREIGN KEY (idetakemon) REFERENCES Etakemons(id) on delete cascade,
